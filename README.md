@@ -1,18 +1,27 @@
 Countdown Time Application:
 
 Features-
-1. This is simple app that let you configure a timer, with the following features:
+This is simple app that let you configure a timer, with the following features:
 
-2. The user must to enter a positive integer in order to initialize the countdown.
+● The user should be able to enter a # of minutes (positive integer) and click a “Start”
+   button to initialize the countdown.
+   
+● Timer format: MM:SS
 
-3. The time display format is MM:SS.
-
-4. The user can pause and resume the countdown.
-
-5. When the contdown is active, the user can speed up or slow down by 1x, 1.5x, or 2x.
-
-6. Once the countdown is 0, that label stated above will change to: “Time’s up!” .
-
-7. When the countdown hits 20 seconds left, the time displayed should be red.
-
-8. At 10 seconds, the timer text should blink.
+● The user should be able to pause & resume the countdown using pause / resume
+  buttons.
+  
+● While the countdown timer is active, the user should be able to speed up / slow
+  down the speed at the following rates:
+     ○ 1.0X (normal speed, selected by default)
+     ○ 1.5X
+     ○ 2X
+     
+● When half of the selected duration has been passed, display a string of text above
+  the countdown timer reading: “More than halfway there!”
+     ○ When the countdown timer reaches 0, this text should change to: “Time’s up!”
+     ○ When the countdown is within 20 seconds of ending, the countdown timer text
+       should turn red.
+     ○ At 10 seconds, the text should start blinking.
+     ○ The time and date for when the countdown will reach 0:00 should be displayed for
+       the local time in each office
