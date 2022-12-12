@@ -42,7 +42,7 @@ useEffect(() => {
       setSeconds(59)
     }
 
-// When the countdown timer reaches 0, this text should change to: “Time’s up!”
+// When the countdown timer reaches 0, this text should change to: “Time’s up!”  
     if(minutes === 0 && seconds === 0){
       setText(`Time’s up! `)
 
@@ -158,3 +158,4 @@ onClick={startCountDown}>START</button>
 }
 
 export default CountDown
+

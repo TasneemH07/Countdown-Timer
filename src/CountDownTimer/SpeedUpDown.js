@@ -30,7 +30,7 @@ const {seconds,setSeconds,startTimer,setStartTimer,minutes,setMinutes,setMyStyle
                   if(startTimer && click2 ){
                 var interval2 = setInterval(() => {
                   setSeconds(seconds-1);
-                  if(minutes==0 && seconds == 0){
+                  if(minutes=== 0 && seconds === 0){
                     setMinutes(0)
                     setSeconds(0)                  
                    setStartTimer(false)
@@ -63,13 +63,13 @@ const {seconds,setSeconds,startTimer,setStartTimer,minutes,setMinutes,setMyStyle
                         if(startTimer && click3){
                   var interval3 = setInterval(() => {
                       setSeconds(seconds-1);
-                      if(minutes==0 && seconds == 0){
+                      if(minutes=== 0 && seconds === 0){
                         setMinutes(0)
                         setSeconds(0)                  
                        setStartTimer(false)
                       }
             //RedText_Functionality
-                      if(minutes === 0 && seconds===20){
+                      if(minutes === 0 && seconds === 20){
                         const style = {
                           color: "red",
                         }
